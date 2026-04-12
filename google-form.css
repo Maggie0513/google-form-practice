@@ -1,0 +1,148 @@
+body{
+    background-color: rgb(240, 235, 248);
+    width: 100%;
+}
+form{
+    width: 640px;
+    margin: auto;
+}
+.formTitle{
+    margin-top: 12px;
+    padding: 24px;
+    padding-bottom: 0px;
+    padding-top: 5px;
+}
+section div{
+    border: 1px solid #dadada;
+    background-color: #fff;
+    margin-bottom: 12px;
+    padding: 24px;
+    border-radius: 8px;
+}
+.borderTop{
+    border-top: 10px solid #673ab7;
+}
+.h1{
+    font-size: 32px;
+    font-weight: 400;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f1f1f;
+    margin: 8px 0;
+}
+.formHint{
+    color: #1f1f1f;
+    font-size: 14.6667px;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-top: 12px;
+}
+hr{
+    color: #dadada;
+    margin: 0px;
+    margin-left: -24px;
+    margin-right: -24px;
+}
+.accountLogin{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #5e5e5e;
+}
+.formRequired{
+    font-size: 14px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #db372d;
+}
+.requiredStar{
+    color: #db372d;
+}
+.formItem{
+    font-size: 16px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #1f1f1f;
+    margin-top: 0px;
+    margin-bottom: 8px;
+}
+.questionInput{
+    font-size: 14px;
+    margin: 25px 0;
+    border: none;
+    border-bottom: 2px solid #dadada;
+}
+.dateTitle{
+    font-size: 12px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #757575;
+    margin: 10px 0;
+}
+.dateInput{
+    border: none;
+    border-bottom: 0.5px solid #dadada;
+    margin: 20px 0;
+    font-size: 14px;
+}
+.secret{
+    width: 100%;
+    font-size: 14px;
+    margin: 25px 0;
+    border: none;
+    border-bottom: 2px solid #dadada;
+}
+.chooseColor{
+    font-size: 14.6667px;
+    margin: 15px 0;
+}
+.checkbox{
+    display: block;
+    font-size: 14.6667px;
+}
+.countryOption{
+    font-size: 14px;
+    padding: 8px 48px 8px 16px;
+    color: rgba(0,0,0,0.54);
+    border-radius: 4px;
+    border: 1px solid #dadada;
+}
+.submit{
+    background-color: #673AB7;
+    color: white;
+    padding: 10px 24px;
+    border-radius: 4px;
+    font-size: 14px;
+    border: none;
+}
+.footerHint{
+    font-size: 12px;
+    color: rgba(0, 0, 0, .66);
+    margin: 12px auto;
+    text-align: left;
+    width: 640px;
+}
+.footerInfo{
+    font-size: 12px;
+    color: rgba(0, 0, 0, .66);
+    margin: 16px 0;
+    text-align: center;
+    padding: 0 16px;
+}
+.googleBrandContainer{
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    padding-bottom: 20px;
+}
+.googleBrandLink{
+    display: flex;
+    align-items: center;
+    text-decoration: none;
+}
+.googleLogo{
+    height: 24px;
+    filter: opacity(0.6);
+    margin-left: 6px;
+}
+.googleLogoText{
+    font-size: 22.1px;
+    color: #70757a;
+    font-family: Arial, Helvetica, sans-serif;
+    margin-bottom: 3px;
+    margin-top: -3px;
+}

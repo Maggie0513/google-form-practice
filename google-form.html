@@ -1,0 +1,129 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>F2E02 表單練習</title>
+    <link rel="icon" href="https://ssl.gstatic.com/docs/spreadsheets/forms/favicon_qp2.png">
+    <link rel="stylesheet" href="reset.css">
+    <link rel="stylesheet" href="hw-form.css">
+</head>
+<body>
+    <main>
+        <section>
+            <form action="" method="post">
+                <div class="borderTop formTitle">
+                    <h1 class="h1">F2E02 表單練習</h1>
+                    <p class="formHint">僅供新尖兵 F2E02 表單切版練習作業</p>
+                    <hr>
+                    <p class="accountLogin"><a href="https://accounts.google.com/v3/signin/identifier?continue=https%3A%2F%2Fdocs.google.com%2Fforms%2Fd%2Fe%2F1FAIpQLSeRMAUDqY6GEPiHotfXZQLvGOQgB1nLfxA_TW-uwlC5vb8CWQ%2Fviewform%3Ffbzx%3D4819464272459436060&dsh=S-316578368%3A1775842044051384&flowName=GlifWebSignIn&flowEntry=ServiceLogin&ifkv=AT1y2_WF28jK_KewxXY7gGIteTUCv8Z-XrImimmT4ku9hQ6J5lwq1dfXKx3ykOpMJtuVq5Wju2wA">登入google</a>
+                        即可儲存進度。
+                        <a href="#">瞭解詳情</a>
+                    </p>
+                    <hr>
+                    <p class="formRequired">*表示必填問題</p>
+                </div>
+                <div>
+                    <p class="formItem">姓名<span class="requiredStar"> *</span></p>
+                    <input type="text" class="questionInput" name="yourName" placeholder="您的回答" required>
+                </div>
+                <div>
+                    <p class="formItem">信箱<span class="requiredStar"> *</span></p>
+                    <input type="email" class="questionInput" name="yourEmail" placeholder="您的回答" required>   
+                </div>
+                <div>
+                    <p class="formItem">生日</p>
+                    <p class="dateTitle">日期</p>
+                    <input type="date" class="dateInput" name="yourBirthday">
+                </div>
+                <div>
+                    <p class="formItem">想跟老師說悄悄話</p>
+                    <input type="text"  class="secret" placeholder="您的回答">
+                </div>
+                <div>
+                    <p class="formItem">喜歡的顏色</p>
+                    <label for="yellow">
+                        <input type="radio" class="chooseColor" name="color" id="yellow">
+                        黃<br>
+                    </label>
+                    <label for="green">
+                        <input type="radio" class="chooseColor" name="color" id="green">
+                        綠<br>
+                    </label>
+                    <label for="red">
+                        <input type="radio" class="chooseColor" name="color" id="red">
+                        紅
+                    </label>
+                </div>
+                <div>
+                    <p class="formItem">喜歡吃的飲食類型</p>
+                    <label for="chinese" class="checkbox">
+                        <input type="checkbox" name="food" id="chinese">
+                        中式
+                    </label>
+                    <br>
+                    <label for="italian" class="checkbox">
+                        <input type="checkbox" name="food" id="italian">
+                        義式
+                    </label>
+                    <br>
+                    <label for="japanese" class="checkbox">
+                        <input type="checkbox" name="food" id="japanese">
+                        日式
+                    </label>
+                    <br>
+                    <label for="korean" class="checkbox">
+                        <input type="checkbox" name="food" id="korean">
+                        韓式
+                    </label>
+                    <br>
+                    <label for="american" class="checkbox">
+                        <input type="checkbox" name="food" id="american">
+                        美式
+                    </label>
+                    <br>
+                    <label for="thai" class="checkbox">
+                        <input type="checkbox" name="food" id="thai">
+                        泰式
+                    </label>
+                </div>
+                <div>
+                    <p>最想去的國家(使用optgroup將選項分為不同洲)</p>
+                    <select name="destination" class="countryOption">
+                        <option value="" selected disabled>選擇</option>
+                        <optgroup label="亞洲">
+                            <option value="japan">日本</option>
+                            <option value="korea">韓國</option>
+                            <option value="thailand">泰國</option>
+                        </optgroup>
+                        <optgroup label="歐洲">
+                            <option value="germany">德國</option>
+                            <option value="uk">英國</option>
+                        </optgroup>
+                        <optgroup label="美洲">
+                            <option value="canada">加拿大</option>
+                            <option value="usa">美國</option>
+                        </optgroup>
+                    </select>
+                </div>
+                <span>
+                        <button type="submit" class="submit">提交</button>
+                </span>
+            </form>
+        </section>
+    </main>
+    <footer>
+        <div class="footerHint">請勿利用Google表單送出密碼。</div>
+        <div  class="footerInfo">
+            這份表單是在 五倍紅寶石程式資訊教育股份有限公司 中建立。 - 聯絡表單擁有者<br><br>
+            這份表單很可疑嗎？ 報告
+        </div>
+        <div class="googleBrandContainer">
+            <a href="https://workspace.google.com/products/forms/?utm_source=product&utm_medium=forms_logo&utm_campaign=forms" class="googleBrandLink">
+            <img src="https://www.gstatic.com/images/branding/googlelogo/svg/googlelogo_dark_clr_74x24px.svg" alt="google圖片" class="googleLogo">
+            <span class="googleLogoText">表單</span>
+            </a>
+        </div>
+    </footer>
+</body>
+</html>
