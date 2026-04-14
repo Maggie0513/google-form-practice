@@ -112,11 +112,13 @@ hr{
     border-radius: 4px;
     font-size: 14px;
     border: none;
+    cursor: pointer;
 }
 .reset{
     color: #673AB7;
     font-size: 14px;
     padding-left: 500px;
+    cursor: pointer;
 }
 .footerHint{
     font-size: 12px;
